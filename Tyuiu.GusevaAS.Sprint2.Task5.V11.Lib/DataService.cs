@@ -47,7 +47,7 @@ namespace Tyuiu.GusevaAS.Sprint2.Task5.V11.Lib
                 }
             }
 
-            return $"{nextG}.{nextM}.{nextN}";
+            return $"{nextN:D2}.{nextM:D2}.{nextG:D4}";
         }
     }
 }
