@@ -13,5 +13,4 @@ namespace Tyuiu.GusevaAS.Sprint2.Task4.V28.Lib
             return Math.Round(z, 3);
         }
     }
-    }
 }

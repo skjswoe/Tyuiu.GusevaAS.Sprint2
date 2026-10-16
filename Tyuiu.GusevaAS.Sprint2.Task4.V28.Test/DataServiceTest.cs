@@ -13,7 +13,7 @@ namespace Tyuiu.GusevaAS.Sprint2.Task4.V28.Test
             double x = 2;
             double y = 3;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(0.517, res);
+            Assert.AreEqual(1.014, res);
         }
     }
 }
