@@ -22,24 +22,27 @@ namespace Tyuiu.GusevaAS.Sprint2.Task2.V14.Lib
 
             if (y == 5)
             {
-                if (x >= 2 && x <= 7) res = true;
+                if (x >= 2 && x <= 9) res = true;
             }
 
             if (y == 6)
             {
                 if (x >= 3 && x <= 5) res = true;
                 if (x == 7) res = true;
+                if (x == 9) res = true;
             }
 
             if (y == 7 || y == 8)
             {
                 if (x == 4) res = true;
                 if (x == 7) res = true;
+                if (x == 9) res = true;
             }
 
             if (y == 9 || y == 10)
             {
                 if (x >= 4 && x <= 7) res = true;
+                if (x == 9) res = true;
                 if (x == 13) res = true;
             }
 
