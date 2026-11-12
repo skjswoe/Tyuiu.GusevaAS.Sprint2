@@ -10,7 +10,7 @@ namespace Tyuiu.GusevaAS.Sprint2.Task4.V28.Lib
                 ? Math.Pow(1 + (y + 2) / (x * x), x)
                 : (2 * x * x - Math.Pow(Math.Sin(y), 2) + 12) / (y * y - Math.Sin(x * x) + 9);
 
-            return Math.Round(z, 3);
+            return Math.Round(z, 4);
         }
     }
 }

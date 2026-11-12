@@ -1,4 +1,5 @@
-﻿using Tyuiu.GusevaAS.Sprint2.Task7.V11.Lib;
+﻿using System;
+using Tyuiu.GusevaAS.Sprint2.Task7.V11.Lib;
 
 namespace Tyuiu.GusevaAS.Sprint2.Task7.V11
 {
@@ -20,24 +21,11 @@ namespace Tyuiu.GusevaAS.Sprint2.Task7.V11
             Console.WriteLine("* Написать программу на C#, которая запрашивает исходные данные           *");
             Console.WriteLine("* (вещественные значения) и вычисляет, находится ли точка                 *");
             Console.WriteLine("* с координатами X,Y в заштрихованной области.                            *");
-            Console.WriteLine("**************************************************************************");
-            Console.Write("Введите номер масти (1-4): ");
-            int value = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            try
-            {
-                Console.WriteLine(ds.FindCardSuit(value));
-            }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            Console.ReadLine(); Console.Write("Введите значение x: ");
+            Console.Write("Введите значение x: ");
             double x = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Введите значение y: ");
