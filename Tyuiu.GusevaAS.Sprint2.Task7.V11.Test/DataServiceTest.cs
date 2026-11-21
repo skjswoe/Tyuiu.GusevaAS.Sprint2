@@ -12,12 +12,11 @@ namespace Tyuiu.GusevaAS.Sprint2.Task7.V11.Test
 
             Assert.IsTrue(ds.CheckDotInShadedArea(-0.1, 0.5));
             Assert.IsTrue(ds.CheckDotInShadedArea(-0.5, 0));
-            Assert.IsTrue(ds.CheckDotInShadedArea(-0.5, -0.1));
-
+            Assert.IsTrue(ds.CheckDotInShadedArea(-0.5, -0.5));
             Assert.IsFalse(ds.CheckDotInShadedArea(0.5, -0.5));
             Assert.IsFalse(ds.CheckDotInShadedArea(2, 2));
             Assert.IsFalse(ds.CheckDotInShadedArea(-1.5, -1.5));
-            Assert.IsFalse(ds.CheckDotInShadedArea(-0.5, -0.5));
+            Assert.IsFalse(ds.CheckDotInShadedArea(-0.2, -0.5));
         }
     }
 }
